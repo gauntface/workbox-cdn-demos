@@ -1,0 +1,33 @@
+[
+  {
+    "name": "workbox-core",
+    "hasDocs": true,
+    "hasDemo": false
+  },
+  {
+    "name": "workbox-precaching",
+    "guide": "https://docs.google.com/a/google.com/document/d/1lM_fVQZpohD8N1QLuxobmrYrq9lOJh4jYF3MJhNrMvs/edit?usp=sharing",
+    "hasDocs": true,
+    "hasDemo": true
+  },
+  {
+    "name": "workbox-routing",
+    "hasDocs": true,
+    "hasDemo": false
+  },
+  {
+    "name": "workbox-runtime-caching",
+    "hasDocs": false,
+    "hasDemo": false
+  },
+  {
+    "name": "workbox-background-sync",
+    "hasDocs": false,
+    "hasDemo": false
+  },
+  {
+    "name": "workbox-sw",
+    "hasDocs": true,
+    "hasDemo": false
+  }
+]

@@ -7,5 +7,8 @@
     "serve": "firebase serve --only hosting,functions",
     "deploy": "./deploy.sh"
   },
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "fs-extra": "^4.0.2"
+  }
 }

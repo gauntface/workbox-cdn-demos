@@ -6,4 +6,5 @@ rm -rf ../public/reference-docs/
 mv ./docs/ ../public/reference-docs/
 cd ..
 rm -rf ./workbox/
+node ./update-modules.js
 firebase deploy
