@@ -1,0 +1,27 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <ol>
+          <li>Open DevTools</li>
+          <li>Go to the Console</li>
+          <li>Clich this button:<br /><button class="install-sw-1 btn btn-outline-primary">Install Service Worker</button></li>
+          <li>Refresh the page</li>
+          <li>Clich this button:<br /><button class="install-sw-2 btn btn-outline-primary">Install New Service Worker</button></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  const firstBtn = document.querySelector('.install-sw-1');
+  const secondBtn = document.querySelector('.install-sw-2');
+
+  firstBtn.addEventListener('click', () => {
+    navigator.serviceWorker.register('/static/demo/workbox-precaching/sw.js?version=1');
+  });
+  secondBtn.addEventListener('click', () => {
+    navigator.serviceWorker.register('/static/demo/workbox-precaching/sw.js?version=2');
+  });
+</script>

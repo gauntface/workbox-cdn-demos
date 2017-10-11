@@ -2,10 +2,18 @@
   "hosting": {
     "public": "public",
     "ignore": [
-      "firebase.json",
       "**/.*",
-      "**/node_modules/**"
+      "**/node_modules/**",
+      "*.sh",
+      "./*"
     ],
-    "cleanUrls": true
+    "cleanUrls": true,
+    "rewrites": [
+      {
+        "source": "/", "function": "app"
+      }, {
+        "source": "/demo/*", "function": "app"
+      }
+    ]
   }
 }
