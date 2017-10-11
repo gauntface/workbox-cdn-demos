@@ -22,7 +22,7 @@ echo ""
 echo "Build Docs"
 echo ""
 echo ""
-gulp docs:build
+gulp docs:build-debug
 
 echo ""
 echo ""
