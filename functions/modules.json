@@ -11,7 +11,7 @@
   },
   {
     "name": "workbox-build",
-    "hasDocs": false,
+    "hasDocs": true,
     "hasDemo": false
   },
   {
@@ -64,5 +64,5 @@
     "name": "workbox-webpack-plugin",
     "hasDocs": false,
     "hasDemo": false
-  },
+  }
 ]

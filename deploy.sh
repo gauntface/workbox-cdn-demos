@@ -8,7 +8,7 @@ cd ..
 rm -rf ./workbox/
 node ./update-modules.js
 if [ -z "$FIREBASE_TOKEN" ]; then
-firebase deploy --token $FIREBASE_TOKEN
-else;
-firebase deploy
+  firebase deploy
+else
+  firebase deploy --token $FIREBASE_TOKEN
 fi
