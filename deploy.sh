@@ -19,6 +19,14 @@ npm install
 
 echo ""
 echo ""
+echo "pwd && ls -l"
+echo ""
+echo ""
+pwd
+ls -l
+
+echo ""
+echo ""
 echo "Build Docs"
 echo ""
 echo ""
