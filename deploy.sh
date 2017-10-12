@@ -76,5 +76,5 @@ echo ""
 if [ -z "$FIREBASE_TOKEN" ]; then
   firebase deploy
 else
-  firebase deploy --token $FIREBASE_TOKEN
+  firebase deploy --token $FIREBASE_TOKEN --non-interactive
 fi
