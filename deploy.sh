@@ -19,10 +19,9 @@ npm install
 
 echo ""
 echo ""
-echo "pwd && ls -l"
+echo "List Packages"
 echo ""
 echo ""
-pwd
 ls -l ./packages
 
 echo ""
@@ -45,14 +44,6 @@ echo "Remove public/reference-docs/"
 echo ""
 echo ""
 rm -rf ./public/reference-docs/
-
-echo ""
-echo ""
-echo "pwd && ls -l"
-echo ""
-echo ""
-pwd
-ls -l
 
 echo ""
 echo ""
