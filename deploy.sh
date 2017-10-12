@@ -10,25 +10,13 @@ echo ""
 echo ""
 cd ./workbox/
 
-echo ""
-echo ""
-echo "npm install"
-echo ""
-echo ""
-npm install
-
-echo ""
-echo ""
-echo "List Packages"
-echo ""
-echo ""
-ls -l ./packages
 
 echo ""
 echo ""
 echo "Build Docs"
 echo ""
 echo ""
+# npm install
 # gulp docs:build-debug
 npm install jsdoc
 jsdoc -c ../jsdoc.conf -d ./docs
