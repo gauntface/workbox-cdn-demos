@@ -23,7 +23,7 @@ echo "pwd && ls -l"
 echo ""
 echo ""
 pwd
-ls -l
+ls -l ./packages
 
 echo ""
 echo ""
