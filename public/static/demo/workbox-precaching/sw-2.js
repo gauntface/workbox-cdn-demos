@@ -7,5 +7,5 @@ const wb = new WorkboxSW({
 wb.precaching.precache([
   {url: '/demo/workbox-precaching', revision: '2'},
   'test-file.txt',
-  'version-2-file.txt'
+  'hello-world.5678.txt',
 ]);
