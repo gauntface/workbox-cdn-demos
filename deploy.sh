@@ -29,7 +29,9 @@ echo ""
 echo "Build Docs"
 echo ""
 echo ""
-gulp docs:build-debug
+npm install -g jsdoc
+jsdoc -c ./jsdoc.conf -d ./docs --debug
+# gulp docs:build-debug
 
 echo ""
 echo ""
