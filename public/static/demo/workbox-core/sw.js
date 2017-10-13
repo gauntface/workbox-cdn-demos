@@ -9,7 +9,7 @@ const printLogs = () => {
   workbox.core._private.logger.debug(`🐛 Oh hai! I'm a debug message.`);
   workbox.core._private.logger.log(`🔧 Good ole log message.`);
   workbox.core._private.logger.warn(`⚠️ Uh Oh.... I'm a warning.`);
-  workbox.core._private.logger.error(`☠️ Uh Oh.... I'm a warning.`);
+  workbox.core._private.logger.error(`☠️ Eek, stuff is breaking. p.s. I'm an error.`);
 };
 
 self.addEventListener('message', function(event) {

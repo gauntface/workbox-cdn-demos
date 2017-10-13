@@ -52,7 +52,7 @@
   },
   {
     "name": "workbox-runtime-caching",
-    "hasDocs": false,
+    "hasDocs": true,
     "hasDemo": false
   },
   {
