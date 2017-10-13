@@ -49,7 +49,7 @@
   {
     "name": "workbox-routing",
     "hasDocs": true,
-    "hasDemo": false
+    "hasDemo": true
   },
   {
     "name": "workbox-runtime-caching",

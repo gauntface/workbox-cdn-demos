@@ -1,0 +1,21 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <ol>
+          <li>Open DevTools</li>
+          <li>Go to the Console</li>
+          <li>Clich this button:<br /><button class="install-sw btn btn-outline-primary">Install Service Worker</button></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  const firstBtn = document.querySelector('.install-sw');
+
+  firstBtn.addEventListener('click', () => {
+    navigator.serviceWorker.register('/static/demo/workbox-routing/sw.js');
+  });
+</script>
