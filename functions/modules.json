@@ -26,6 +26,7 @@
   },
   {
     "name": "workbox-core",
+    "guide": "https://docs.google.com/a/google.com/document/d/1hrxNhKLN_mvRPjQbepArP3W4mAx1PxIGb37NCU_WA6w/edit?usp=sharing",
     "hasDocs": true,
     "hasDemo": true
   },
