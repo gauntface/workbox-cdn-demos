@@ -27,7 +27,7 @@
   {
     "name": "workbox-core",
     "hasDocs": true,
-    "hasDemo": false
+    "hasDemo": true
   },
   {
     "name": "workbox-google-analytics",
