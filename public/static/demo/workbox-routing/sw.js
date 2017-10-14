@@ -8,15 +8,20 @@ const wb = new WorkboxSW({
 });
 */
 
+// TODO Skip Waiting
+// TODO Clieans Claim
+
 const routing = workbox.routing.default;
 
+// Set up a route to alter the demo-img
 const specialImgUrl = new URL('/static/demo/workbox-routing/demo-img.png', location).toString();
-const specialImgRoute = new workbox.routing.Route(({url}) => {
-  return (url === specialImgUrl);
+const specialImgRoute = new workbox.routing.Route(({event}) => {
+  return (event.request.url === specialImgUrl);
 }, ()=> {
-  return fetch('http://via.placeholder.com/300x300/ffffff/F57C00?text=Hello+from+Workbox');
+  return fetch('/static/demo/workbox-routing/demo-img-intercepted.png');
 });
-routing.registerRoute();
+routing.registerRoute(specialImgRoute);
+
 
 self.addEventListener('message', function(event) {
   switch(event.data.command) {

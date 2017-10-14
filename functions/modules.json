@@ -54,7 +54,7 @@
   {
     "name": "workbox-runtime-caching",
     "hasDocs": true,
-    "hasDemo": false
+    "hasDemo": true
   },
   {
     "name": "workbox-sw",
