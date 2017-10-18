@@ -19,10 +19,10 @@
   const showLogsBtn = document.querySelector('.show-logs');
 
   installSWBtn.addEventListener('click', () => {
-    navigator.serviceWorker.register('/static/demo/workbox-core/sw.js');
+    navigator.serviceWorker.register('/demo/workbox-core/sw.js');
   });
   showLogsBtn.addEventListener('click', () => {
-    navigator.serviceWorker.register('/static/demo/workbox-core/sw.js')
+    navigator.serviceWorker.register('/demo/workbox-core/sw.js')
     .then((reg) => {
       const message = {
         command: 'printLogs',

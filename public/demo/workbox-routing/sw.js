@@ -14,11 +14,11 @@ const wb = new WorkboxSW({
 const routing = workbox.routing.default;
 
 // Set up a route to alter the demo-img
-const specialImgUrl = new URL('/static/demo/workbox-routing/demo-img.png', location).toString();
+const specialImgUrl = new URL('/demo/workbox-routing/demo-img.png', location).toString();
 const specialImgRoute = new workbox.routing.Route(({event}) => {
   return (event.request.url === specialImgUrl);
 }, ()=> {
-  return fetch('/static/demo/workbox-routing/demo-img-intercepted.png');
+  return fetch('/demo/workbox-routing/demo-img-intercepted.png');
 });
 routing.registerRoute(specialImgRoute);
 

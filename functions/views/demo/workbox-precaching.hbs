@@ -21,15 +21,15 @@
   const secondBtn = document.querySelector('.install-sw-2');
 
   firstBtn.addEventListener('click', () => {
-    navigator.serviceWorker.register('/static/demo/workbox-precaching/sw-1.js');
+    navigator.serviceWorker.register('/demo/workbox-precaching/sw-1.js');
   });
   secondBtn.addEventListener('click', () => {
-    navigator.serviceWorker.register('/static/demo/workbox-precaching/sw-1.js')
+    navigator.serviceWorker.register('/demo/workbox-precaching/sw-1.js')
     .then((reg) => {
       return reg.unregister();
     })
     .then(() => {
-      navigator.serviceWorker.register('/static/demo/workbox-precaching/sw-2.js');
+      navigator.serviceWorker.register('/demo/workbox-precaching/sw-2.js');
     });
   });
 </script>
